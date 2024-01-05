@@ -35,3 +35,6 @@ jobs:
 
       - name: Test
         run: yarn test
+        
+      - name: Add coverage comment
+        uses: eeshdarthvader/code-coverage-assistant@v1
